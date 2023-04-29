@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page 15. Forms!</title>
+</head>
+<body>
+    <h1>The final countdown: FORMS!</h1>
+    <hr>
+<div>
+    <form>
+        <div>
+        <label for="fname">first name:</label>
+        <input type="text" id="fname" name="fname" placeholder="John" required>
+        </div>
+        <br>
+        <div>
+        <label for="lname">last name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Doe" required>
+        </div>
+        <br>
+        <div>
+            <label for="pass">password:</label>
+            <input type="password" name="password" id="pass" maxlength="12">
+        
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="phone">phone nr.</label>
+            <input type="tel" name="phone" id="phone" placeholder="xxxxxxxx">
+        </div>
+        <br>
+        <div>
+            <label for="bdate">birthdate</label>
+            <input type="date" name="bdate" id="bdate">
+        </div>
+        <br>
+        <div>
+            <label for="quantity">quantity:</label>
+            <input type="number" name="quantity" id="quantity" min="-1" max="99" value="69">
+        </div>
+        <br>
+        <div>
+            <label for="">Mr.</label>
+            <input type="radio" name="title" id="Mr." value="Mr.">
+
+            <label for="">Mrs.</label>
+            <input type="radio" name="title" id="Mrs." value="Mrs.">
+
+            <label for="">Apache Helicopter</label>
+            <input type="radio" name="title" id="ApacheHeli" value="Apache helicopter">
+        </div>
+        <br>
+        <div>
+            <label for="payment">Payment: </label>
+            <select name="" id="">
+                <option value="Visa">Visa</option>
+                <option value="Mastercard">Mastercard</option>
+                <option value="Gift card">Gift card</option>
+            </select>
+        </div>
+        <div>
+            <input type="reset">
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</div>
+</body>
+</html>

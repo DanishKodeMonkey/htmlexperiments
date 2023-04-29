@@ -1,0 +1,53 @@
+<!--
+Real quick, if you need mp3 files license free
+just go to youtube audio and download something
+-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <title>Page 4, playing with audio!</title>
+    </head>
+    <body>
+        <h1>Here we will play with some audio!</h1>
+        <hr>
+
+        <!-- 
+            Working with audio elements we start 
+            noticing a pattern right?
+            to implement audio we can do so with a
+            browsers built in audio player
+            the syntax for audio is as follows
+            <audio controls(for the player)
+            autoplay(for autoplay)
+            muted(to start as muted)
+            loop(to loop the song constantly)
+            src(source to file, path or link)>
+            all the attributes, contorl, autoplay, muted and loop
+            are all boolean, meaning they are either
+            true or false, and simply having them set
+            makes them true.
+
+            If there are several sources to try out
+            you can line them up indented to the audio line
+            and the browser will try each solution in order
+            you can add a last line stating its not possible to play
+            if needed.
+            end all of it with </audio
+
+        -->
+        <audio controls autoplay muted loop src="/music/Introspective Taal - Aakash Gandhi.mp3">
+            <source src="/music/Introspective Taal - Aakash Gandhi.mp3">
+            This browser does not support HTML5 MP3 players
+
+        </audio>
+        <hr>
+        <p>click monke to proceed!</p>
+    
+        <a href="page5.html" target="_self" title="Click me for page 5">
+            
+            <img src="/images/thecodemonkey.png" height="100" alt="Picture of a monkey coding!" title="To page 5! VIDEOS!">
+            </a>
+    </body>
+</html>
